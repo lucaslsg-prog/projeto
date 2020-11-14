@@ -235,7 +235,7 @@ return [
         [
             'text' => 'Home',
             'url'  => 'restrito/home',
-            'icon' => 'fas fa-tachometer-alt',
+            'icon' => 'fa fa-home',
             'admin' => false
         ],
 

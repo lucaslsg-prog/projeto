@@ -17,7 +17,7 @@
 
                 <div class="form-group">
                     {!! Form::label('name', 'Name') !!}
-                    {!! Form::text('name', null, ['class' => 'form-control']) !!}
+                    {!! Form::text('name', null, ['class' => 'form-control','required']) !!}
                     @error('name')
                         <small class="form-text text-danger">{{ $message }}</small>
                     @enderror
@@ -25,7 +25,7 @@
 
                 <div class="form-group">
                     {!! Form::label('model', 'Model') !!}
-                    {!! Form::text('model', null, ['class' => 'form-control']) !!}
+                    {!! Form::text('model', null, ['class' => 'form-control','required']) !!}
                     @error('model')
                         <small class="form-text text-danger">{{ $message }}</small>
                     @enderror
@@ -33,7 +33,7 @@
 
                 <div class="form-group">
                     {!! Form::label('radio', 'Radio') !!}
-                    {!! Form::text('radio', null, ['class' => 'form-control']) !!}
+                    {!! Form::text('radio', null, ['class' => 'form-control','required']) !!}
                     @error('radio')
                         <small class="form-text text-danger">{{ $message }}</small>
                     @enderror
@@ -41,7 +41,7 @@
 
                 <div class="form-group">
                     {!! Form::label('tv', 'TV') !!}
-                    {!! Form::text('tv', null, ['class' => 'form-control']) !!}
+                    {!! Form::text('tv', null, ['class' => 'form-control','required']) !!}
                     @error('tv')
                         <small class="form-text text-danger">{{ $message }}</small>
                     @enderror
@@ -49,7 +49,7 @@
 
                 <div class="form-group">
                     {!! Form::label('average_current', 'Average Current') !!}
-                    {!! Form::text('average_current', null, ['class' => 'form-control']) !!}
+                    {!! Form::text('average_current', null, ['class' => 'form-control','required']) !!}
                     @error('average_current')
                         <small class="form-text text-danger">{{ $message }}</small>
                     @enderror
@@ -57,7 +57,7 @@
 
                 <div class="form-group">
                     {!! Form::label('power_of_lock', 'Power of Lock') !!}
-                    {!! Form::text('power_of_lock', null, ['class' => 'form-control']) !!}
+                    {!! Form::text('power_of_lock', null, ['class' => 'form-control','required']) !!}
                     @error('power_of_lock')
                         <small class="form-text text-danger">{{ $message }}</small>
                     @enderror

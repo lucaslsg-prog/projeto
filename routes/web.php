@@ -36,6 +36,7 @@ Route::prefix('restrito')->group(function () {
     Route::namespace('Restrito')->name('restrito.')->group(function () {
         Route::resource('smartphones', 'SmartphoneController');
         Route::resource('tablets', 'TabletController');
+        Route::resource('users', 'UserController');
 
         Route::get('lista-smartphones','SmartphoneController@listaSmartphones')->name('lista.smartphones');
         Route::get('lista-tablets','TabletController@listaTablets')->name('lista.tablets');

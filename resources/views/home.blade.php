@@ -7,7 +7,7 @@
 @stop
 
 @section('content')
-    <p>Bem Vindo</p>
+    <p>Pretendo explorar essa pagina colocando um grid com fotos das samples</p>
 @stop
 
 @section('css')
