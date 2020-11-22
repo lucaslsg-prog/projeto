@@ -20,7 +20,10 @@ class SmartphoneRequest extends FormRequest
             'average_current' => 'required|string',
             'tv' => 'required|string',
             'radio' => 'required|string',
-            'power_of_lock' => 'required|string'
+            'power_of_lock' => 'required|string',
+            'observations' => 'required|string',
+            'current_measurement'=> 'required|string',
+            'esim' => 'required|string'
         ];
     }
 }

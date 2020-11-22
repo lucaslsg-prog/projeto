@@ -19,9 +19,12 @@ class CreateSmartphonesTable extends Migration
             $table->string('model');
             $table->string('tss');
             $table->string('average_current');
-            $table->string('tv');
+            $table->string('current_measurement');
             $table->string('power_of_lock');
             $table->string('radio');
+            $table->string('tv');
+            $table->string('esim');
+            $table->string('observations');
             $table->timestamps();
         });
     }

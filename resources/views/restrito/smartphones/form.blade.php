@@ -70,6 +70,30 @@
                         <small class="form-text text-danger">{{ $message }}</small>
                     @enderror
                 </div>
+
+                <div class="form-group">
+                    {!! Form::label('esim', 'e-SIM') !!}
+                    {!! Form::text('esim', null, ['class' => 'form-control']) !!}
+                    @error('esim')
+                        <small class="form-text text-danger">{{ $message }}</small>
+                    @enderror
+                </div>
+
+                <div class="form-group">
+                    {!! Form::label('current_measurement', 'Measurement') !!}
+                    {!! Form::text('current_measurement', null, ['class' => 'form-control']) !!}
+                    @error('current_measurement')
+                        <small class="form-text text-danger">{{ $message }}</small>
+                    @enderror
+                </div>
+
+                <div class="form-group">
+                    {!! Form::label('observations', 'Observations') !!}
+                    {!! Form::text('observations', null, ['class' => 'form-control']) !!}
+                    @error('observations')
+                        <small class="form-text text-danger">{{ $message }}</small>
+                    @enderror
+                </div>
             </div>
 
             <div class="card-footer">

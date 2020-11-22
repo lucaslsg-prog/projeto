@@ -63,6 +63,9 @@ class SmartphoneDataTable extends DataTable
             Column::make('tss'),
             Column::make('power_of_lock'),
             Column::make('average_current'),
+            Column::make('current_measurement'),
+            Column::make('esim'),
+            Column::make('observations'),
             Column::make('radio'),
             Column::make('tv')
             //Column::computed('total_smartphones')->title('Total de Smartphones')

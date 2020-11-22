@@ -13,7 +13,10 @@ class Smartphone extends Model
         'tss',
         'radio',
         'average_current',
-        'power_of_lock'
+        'power_of_lock',
+        'observations',
+        'current_measurement',
+        'esim'
     ];
 
 }
